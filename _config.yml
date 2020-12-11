@@ -25,6 +25,8 @@ github_username:  rmshaffer
 linkedin_username: rmshaffer
 facebook_username: ryanshaff
 
+# Google Analytics
+google_analytics: UA—110172517-1
 
 # Build settings
 markdown: kramdown
