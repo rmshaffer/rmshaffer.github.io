@@ -29,7 +29,7 @@ as an individual contributor, technical leader, and people manager.
 
 ## Academic Honors
 
-- National Defense Science and Engineering Fellow, 2017-2021
+- National Defense Science and Engineering Graduate Fellow, 2017-2021
 - UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019-2020
 - System Design and Management Fellow, Massachusetts Institute of Technology, 2012-2015
 - Boston University Science and Engineering Applied Science Award, 2011
