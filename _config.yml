@@ -25,6 +25,11 @@ github_username:  rmshaffer
 linkedin_username: rmshaffer
 facebook_username: ryanshaff
 
+# Minima Settings
+minima:
+  # See http://shopify.github.io/liquid/filters/date/ for date format details.
+  date_format: "%B %-d, %Y"
+
 # Google Analytics
 google_analytics: UA—110172517-1
 
