@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Should We Trust Quantum Computers?"
-date:   2020-03-10 17:44:00 -0500
+title: "Should We Trust Quantum Computers?"
+date: 2020-03-10 17:44:00 -0500
 categories: blog
+comments: true
 ---
 Imagine the following scenario. You are responsible for the safety of a large chemical plant. By some unfortunate administrative oversight, your plant's entire supplies of Xotheasium, Yucruinium, and Zatreilium have been put on conveyor belts and are moving toward an enormous vat. The Xotheasium and Yucruinium will both reach the vat 15 minutes from now, and the Zatreilium will reach the vat 20 minutes from now. It is well-known, of course, that Xotheasium and Zatreilium react explosively, and if they come in contact, your plant will explode and anyone inside will surely die. And as luck would have it, the control system for the conveyor belt is currently restarting due to a Windows Update and will not be usable for the next 15 minutes.
 

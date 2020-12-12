@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Why Qubit Count Is Not Everything"
-date:   2019-08-04 11:00:06 -0500
+title: "Why Qubit Count Is Not Everything"
+date: 2019-08-04 11:00:06 -0500
 categories: blog
+comments: true
 ---
 The qubit is often portrayed as the fundamental unit of information in a quantum computer. This seems natural, since in ordinary classical computers, information is always represented in bits and bytes -- sequences of 0s and 1s. And therefore, bits and bytes are often used to measure everything from processor architecture (32-bit or 64-bit) to hard drive size (terabytes) to network speeds (gigabits per second).
 
