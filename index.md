@@ -20,6 +20,10 @@ For more about me, see the [About](./about.md) page.
 
 # Recent Papers
 
+[**Stochastic search for approximate compilation of unitaries**](https://arxiv.org/abs/2101.04474)  
+Ryan Shaffer  
+arXiv:2101.04474, 2021
+
 [**Practical verification protocols for analog quantum simulators**](https://arxiv.org/abs/2003.04500)  
 Ryan Shaffer, Eli Megidish, Joseph Broz, Wei-Ting Chen, Hartmut Häffner  
 arXiv:2003.04500, 2020
