@@ -23,7 +23,7 @@ as an individual contributor, technical leader, and people manager.
 
 ## Industry Experience
 
-- Senior Quantum Software Engineer, Microsoft Azure, 2020-
+- Senior Quantum Software Engineer, Microsoft Azure, 2020-2021
 - Senior Software Engineering Manager, Microsoft Office, 2014-2018
 - Senior Software Engineer, Microsoft Office, 2006-2014
 
