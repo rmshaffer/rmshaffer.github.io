@@ -22,18 +22,18 @@ For more about me, see the [About](./about.md) page.
 
 [**Stochastic search for approximate compilation of unitaries**](https://arxiv.org/abs/2101.04474)  
 Ryan Shaffer  
-arXiv:2101.04474, 2021
+arXiv:2101.04474 (2021)
 
-[**Practical verification protocols for analog quantum simulators**](https://arxiv.org/abs/2003.04500)  
+[**Practical verification protocols for analog quantum simulators**](https://doi.org/10.1038/s41534-021-00380-8)  
 Ryan Shaffer, Eli Megidish, Joseph Broz, Wei-Ting Chen, Hartmut Häffner  
-arXiv:2003.04500, 2020
+npj Quantum Information 7, 46 (2021)
 
 [**Characteristics and Enablers of Transparency in Product Development Risk Management**](/papers/ICED15_244.pdf)  
 Ryan Shaffer, Alison Olechowski, Warren Seering, Mohammad Ben-Daya  
-Proceedings of the 20th International Conference on Engineering Design (ICED15), 2015
+Proceedings of the 20th International Conference on Engineering Design (2015)
 
 [**Why Software Firms Build Hardware – And What Microsoft Is Doing About It**](https://dspace.mit.edu/bitstream/handle/1721.1/100312/932078071-MIT.pdf)  
 Ryan Shaffer  
-S.M. Thesis, Massachusetts Institute of Technology, 2015
+S.M. Thesis, Massachusetts Institute of Technology (2015)
 
 See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAAAAJ) for a complete list.
