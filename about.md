@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img src="/images/portrait.jpg" style="float: right; padding-left: 15px" width="125" alt="Photo of Ryan Shaffer" />
+<img src="/images/portrait.jpg" style="float: right; padding-left: 20px" width="125" alt="Photo of Ryan Shaffer" />
 
 I'm currently a Ph.D. candidate in the [Häffner group](https://ions.berkeley.edu)
 at UC Berkeley and the
