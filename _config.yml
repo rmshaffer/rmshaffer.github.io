@@ -31,7 +31,7 @@ minima:
   date_format: "%B %-d, %Y"
 
 # Google Analytics
-google_analytics: UA—110172517-1
+google_analytics: UA-110172517-1
 
 # Disqus Comments
 disqus:

@@ -32,9 +32,9 @@ world as an individual contributor, technical leader, and people manager.
 
 ## Academic Honors
 
-- [NSF QISE-NET Fellow](https://qisenet.uchicago.edu/), 2021-2023
+- [National Science Foundation QISE-NET Fellow](https://qisenet.uchicago.edu/), 2021-2023
 - [US Department of Defense NDSEG Fellow](https://www.ndsegfellowships.org/), 2017-2021
 - UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
-- System Design and Management Fellow, Massachusetts Institute of Technology, 2012-2015
+- MIT System Design and Management Fellow, 2012-2015
 - Boston University Science and Engineering Applied Science Award, 2011
 - Grove City College Roger Clark Dawes Engineering Award, 2008
