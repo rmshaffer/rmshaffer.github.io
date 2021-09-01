@@ -16,8 +16,7 @@
 title: Ryan Shaffer
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Experienced software engineering leader
-  and quantum computing scientist
+  Software engineer and quantum computing scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryanshaffer.net" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ryanmshaffer
