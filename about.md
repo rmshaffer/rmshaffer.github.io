@@ -5,13 +5,15 @@ permalink: /about/
 ---
 <img src="/images/portrait.jpg" style="float: right;" width="200" alt="Photo of Ryan Shaffer" />
 
-I'm currently a Ph.D. candidate in Physics at UC Berkeley.
-As a member of the [Häffner lab](http://research.physics.berkeley.edu/haeffner/),
-my research interests include experimental trapped-ion quantum computing
-and experimental verification of quantum simulation and computation.
+I'm currently a Ph.D. candidate in the [Häffner group](https://ions.berkeley.edu)
+at UC Berkeley and the
+[NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu). I'm also a graduate student intern in the [OVER-QC group](https://overqc.sandia.gov/)
+at Sandia National Laboratories.
+My research interests include trapped-ion quantum computing, quantum circuit synthesis,
+and experimental verification of analog quantum simulations.
 
-I have over a decade of software engineering experience at Microsoft
-as an individual contributor, technical leader, and people manager.
+Outside of my research pursuits, I have spent over ten years in the software engineering
+world as an individual contributor, technical leader, and people manager.
 
 ## Education
 
@@ -21,16 +23,18 @@ as an individual contributor, technical leader, and people manager.
 - M.S. in Computer Science, Boston University
 - B.S. in Electrical Engineering, Grove City College
 
-## Industry Experience
+## Experience
 
-- Senior Quantum Software Engineer, Microsoft Azure, 2020-2021
-- Senior Software Engineering Manager, Microsoft Office, 2014-2018
-- Software Engineer, Microsoft Office, 2006-2014
+- Graduate Student Intern, Sandia National Laboratories, 2021-
+- Software Engineer, Microsoft Office and Azure Quantum, 2017-2021
+- Software Engineering Manager, Microsoft Office, 2014-2017
+- Software Engineer, Microsoft Office, 2008-2014
 
 ## Academic Honors
 
-- National Defense Science and Engineering Graduate Fellow, 2017-2021
-- UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019-2020
+- [NSF QISE-NET Fellow](https://qisenet.uchicago.edu/), 2021-2023
+- [US Department of Defense NDSEG Fellow](https://www.ndsegfellowships.org/), 2017-2021
+- UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
 - System Design and Management Fellow, Massachusetts Institute of Technology, 2012-2015
 - Boston University Science and Engineering Applied Science Award, 2011
 - Grove City College Roger Clark Dawes Engineering Award, 2008

@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   and quantum computing scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryanshaffer.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: RyanMShaffer
+twitter_username: ryanmshaffer
 github_username:  rmshaffer
 linkedin_username: rmshaffer
 facebook_username: ryanshaff
