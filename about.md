@@ -7,13 +7,15 @@ permalink: /about/
 
 I'm currently a Ph.D. candidate in the [Häffner group](https://ions.berkeley.edu)
 at UC Berkeley and the
-[NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu). I'm also a graduate student intern in the [OVER-QC group](https://overqc.sandia.gov/)
+[NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu).
+I'm also a graduate student intern in the [OVER-QC group](https://overqc.sandia.gov/)
 at Sandia National Laboratories.
 My research interests include trapped-ion quantum computing, quantum circuit synthesis,
 and experimental verification of analog quantum simulations.
 
-Outside of my research pursuits, I have spent over ten years in the software engineering
-world as an individual contributor, technical leader, and people manager.
+In addition to my research pursuits, I work at Facebook as a software engineer.
+I previously spent over ten years with Microsoft as an individual contributor,
+technical leader, and people manager.
 
 ## Education
 
@@ -26,9 +28,11 @@ world as an individual contributor, technical leader, and people manager.
 ## Experience
 
 - Graduate Student Intern, Sandia National Laboratories, 2021-
+- Software Engineer, Facebook, 2021-
 - Software Engineer, Microsoft Office and Azure Quantum, 2017-2021
 - Software Engineering Manager, Microsoft Office, 2014-2017
 - Software Engineer, Microsoft Office, 2008-2014
+- Software Engineering Intern, Microsoft Office, 2006-2007
 
 ## Academic Honors
 
@@ -36,5 +40,5 @@ world as an individual contributor, technical leader, and people manager.
 - [US Department of Defense NDSEG Fellow](https://www.ndsegfellowships.org/), 2017-2021
 - UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
 - MIT System Design and Management Fellow, 2012-2015
-- Boston University Science and Engineering Applied Science Award, 2011
+- Boston University Science and Engineering Day Applied Science Award, 2011
 - Grove City College Roger Clark Dawes Engineering Award, 2008
