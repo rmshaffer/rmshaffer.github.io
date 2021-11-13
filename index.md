@@ -15,7 +15,7 @@ at Sandia National Laboratories.
 My research interests include trapped-ion quantum computing, quantum circuit synthesis,
 and experimental verification of analog quantum simulations.
 
-In addition to my research pursuits, I work at Facebook as a software engineer.
+In addition to my research pursuits, I work at Meta as a software engineer.
 I previously spent over ten years with Microsoft as an individual contributor,
 technical leader, and people manager.
 

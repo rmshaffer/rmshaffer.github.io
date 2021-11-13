@@ -13,7 +13,7 @@ at Sandia National Laboratories.
 My research interests include trapped-ion quantum computing, quantum circuit synthesis,
 and experimental verification of analog quantum simulations.
 
-In addition to my research pursuits, I work at Facebook as a software engineer.
+In addition to my research pursuits, I work at Meta as a software engineer.
 I previously spent over ten years with Microsoft as an individual contributor,
 technical leader, and people manager.
 
@@ -28,7 +28,7 @@ technical leader, and people manager.
 ## Experience
 
 - Graduate Student Intern, Sandia National Laboratories, 2021-
-- Software Engineer, Facebook, 2021-
+- Software Engineer, Meta, 2021-
 - Software Engineer, Microsoft Office and Azure Quantum, 2017-2021
 - Software Engineering Manager, Microsoft Office, 2014-2017
 - Software Engineer, Microsoft Office, 2008-2014
