@@ -37,7 +37,7 @@ technical leader, and people manager.
 ## Academic Honors
 
 - [National Science Foundation QISE-NET Fellow](https://qisenet.uchicago.edu/), 2021-2023
-- [US Department of Defense NDSEG Fellow](https://www.ndsegfellowships.org/), 2017-2021
+- [US Department of Defense NDSEG Fellow](https://ndseg.org/), 2017-2021
 - UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
 - MIT System Design and Management Fellow, 2012-2015
 - Boston University Science and Engineering Day Applied Science Award, 2011
