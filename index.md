@@ -35,8 +35,4 @@ npj Quantum Information 7, 46 (2021)
 Ryan Shaffer, Alison Olechowski, Warren Seering, Mohammad Ben-Daya  
 Proceedings of the 20th International Conference on Engineering Design (2015)
 
-[**Why Software Firms Build Hardware – And What Microsoft Is Doing About It**](https://dspace.mit.edu/bitstream/handle/1721.1/100312/932078071-MIT.pdf)  
-Ryan Shaffer  
-S.M. Thesis, Massachusetts Institute of Technology (2015)
-
 See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAAAAJ) for a complete list.
