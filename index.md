@@ -15,13 +15,13 @@ at Sandia National Laboratories.
 My research interests include trapped-ion quantum computing, quantum circuit synthesis,
 and experimental verification of analog quantum simulations.
 
-In addition to my research pursuits, I work at Meta as a software engineer.
-I previously spent over ten years with Microsoft as an individual contributor,
-technical leader, and people manager.
-
 For more about me, see the [About](./about.md) page.
 
 # Recent Papers
+
+[**Surrogate-based optimization for variational quantum algorithms**](https://arxiv.org/abs/2204.05451)  
+Ryan Shaffer, Lucas Kocia, Mohan Sarovar  
+arXiv:2204.05451 (2022)
 
 [**Stochastic search for approximate compilation of unitaries**](https://arxiv.org/abs/2101.04474)  
 Ryan Shaffer  
