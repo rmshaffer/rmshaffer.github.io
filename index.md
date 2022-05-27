@@ -27,10 +27,6 @@ arXiv:2205.13074 (2022)
 Ryan Shaffer, Lucas Kocia, Mohan Sarovar  
 arXiv:2204.05451 (2022)
 
-[**Stochastic search for approximate compilation of unitaries**](https://arxiv.org/abs/2101.04474)  
-Ryan Shaffer  
-arXiv:2101.04474 (2021)
-
 [**Practical verification protocols for analog quantum simulators**](https://doi.org/10.1038/s41534-021-00380-8)  
 Ryan Shaffer, Eli Megidish, Joseph Broz, Wei-Ting Chen, Hartmut Häffner  
 npj Quantum Information 7, 46 (2021)
