@@ -7,13 +7,13 @@ list_title: Blog Posts
 ---
 <img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Photo of Ryan Shaffer" />
 
-I'm currently a Ph.D. candidate in the [Häffner group](https://ions.berkeley.edu)
+I'm currently a Ph.D. candidate in the [Häffner ion trap group](https://ions.berkeley.edu)
 at UC Berkeley and the
 [NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu).
 I'm also a graduate student intern in the [OVER-QC group](https://overqc.sandia.gov/)
-at Sandia National Laboratories.
+at Sandia National Labs.
 My research interests include trapped-ion quantum computing, quantum circuit synthesis,
-and experimental verification of analog quantum simulations.
+and experimental verification of quantum computation and analog quantum simulation.
 
 For more about me, see the [About](./about.md) page.
 
