@@ -20,7 +20,7 @@ permalink: /about/
 
 ## Research and Teaching Experience (10+ years)
 
-- Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Laboratories, 2021-present
+- Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs, 2021-present
 - Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-present
 - Graduate Student Instructor, Physics Department, UC Berkeley, 2019
 - Research Assistant, Engineering Systems Division, MIT, 2014
