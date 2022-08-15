@@ -5,38 +5,31 @@ permalink: /about/
 ---
 <img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Photo of Ryan Shaffer" />
 
-I'm currently a Ph.D. candidate in the [Häffner group](https://ions.berkeley.edu)
-at UC Berkeley and the
-[NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu).
-I'm also a graduate student intern in the [OVER-QC group](https://overqc.sandia.gov/)
-at Sandia National Laboratories.
-My research interests include trapped-ion quantum computing, quantum circuit synthesis,
-and experimental verification of analog quantum simulations.
-
-In addition to my research pursuits, I have spent over ten years in the software engineering
-world as an individual contributor, technical leader, and people manager.
-
 ## Education
 
-- Ph.D. in Physics (in progress), University of California, Berkeley
-- M.A. in Physics, University of California, Berkeley
-- M.S. in Engineering and Management, Massachusetts Institute of Technology
-- M.S. in Computer Science, Boston University
-- B.S. in Electrical Engineering, Grove City College
+- Ph.D., Physics (in progress), University of California, Berkeley
+- M.A., Physics, University of California, Berkeley
+- M.S., Engineering and Management, Massachusetts Institute of Technology
+- M.S., Computer Science (concentration in Computer Security), Boston University
+- B.S., Electrical Engineering (concentration in Computer Engineering), Grove City College
 
-## Experience
+## Industry Experience (15+ years)
 
-- Graduate Student Intern, Sandia National Laboratories, 2021-
-- Software Engineer, Facebook, 2021-
-- Software Engineer, Microsoft Office and Azure Quantum, 2017-2021
-- Software Engineering Manager, Microsoft Office, 2014-2017
-- Software Engineer, Microsoft Office, 2008-2014
-- Software Engineering Intern, Microsoft Office, 2006-2007
+- Software Engineer, Facebook, 2021-present
+- Software Engineer and Manager, Microsoft, 2006-2021
+
+## Research and Teaching Experience (10+ years)
+
+- Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Laboratories, 2021-present
+- Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-present
+- Graduate Student Instructor, Physics Department, UC Berkeley, 2019
+- Research Assistant, Engineering Systems Division, MIT, 2014
+- Teaching Assistant, Physics and Engineering Departments, Grove City College, 2005-2007
 
 ## Academic Honors
 
-- [National Science Foundation QISE-NET Fellow](https://qisenet.uchicago.edu/), 2021-2023
-- [US Department of Defense NDSEG Fellow](https://ndseg.org/), 2017-2021
+- [NSF Quantum Information Science & Engineering Network (QISE-NET) Fellow](https://qisenet.uchicago.edu/), 2021-present
+- [DoD National Defense Science & Engineering Graduate (NDSEG) Fellow](https://ndseg.org/), 2017-2021
 - UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
 - MIT System Design and Management Fellow, 2012-2015
 - Boston University Science and Engineering Day Applied Science Award, 2011
