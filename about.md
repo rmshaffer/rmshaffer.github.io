@@ -16,7 +16,7 @@ permalink: /about/
 ## Industry Experience (15+ years)
 
 - Software Engineer, Facebook, 2021-present
-- Software Engineer and Manager, Microsoft, 2006-2021
+- Software Engineer and Manager, Microsoft, 2006-21
 
 ## Research and Teaching Experience (10+ years)
 
@@ -24,13 +24,13 @@ permalink: /about/
 - Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-present
 - Graduate Student Instructor, Physics Department, UC Berkeley, 2019
 - Research Assistant, Engineering Systems Division, MIT, 2014
-- Teaching Assistant, Physics and Engineering Departments, Grove City College, 2005-2007
+- Teaching Assistant, Physics and Engineering Departments, Grove City College, 2005-07
 
 ## Academic Honors
 
-- [NSF Quantum Information Science & Engineering Network (QISE-NET) Fellow](https://qisenet.uchicago.edu/), 2021-present
-- [DoD National Defense Science & Engineering Graduate (NDSEG) Fellow](https://ndseg.org/), 2017-2021
+- [NSF Quantum Information Science & Engineering Network (QISE-NET) Fellow](https://qisenet.uchicago.edu/), 2021-22
+- [DoD National Defense Science & Engineering Graduate (NDSEG) Fellow](https://ndseg.org/), 2017-21
 - UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
-- MIT System Design and Management Fellow, 2012-2015
+- MIT System Design and Management Fellow, 2012-15
 - Boston University Science and Engineering Day Applied Science Award, 2011
 - Grove City College Roger Clark Dawes Engineering Award, 2008
