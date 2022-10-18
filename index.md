@@ -10,10 +10,7 @@ list_title: Blog Posts
 I'm currently a Ph.D. candidate in the [Häffner ion trap group](https://ions.berkeley.edu)
 at UC Berkeley and the
 [NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu).
-I'm also a graduate student intern in the [OVER-QC group](https://overqc.sandia.gov/)
-at Sandia National Labs.
-My research interests include trapped-ion quantum computing, quantum circuit synthesis,
-and experimental verification of quantum computation and analog quantum simulation.
+My research interests include verification techniques for quantum computations and analog quantum simulations.
 
 For more about me, see the [About](./about.md) page.
 

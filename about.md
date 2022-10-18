@@ -15,13 +15,13 @@ permalink: /about/
 
 ## Industry Experience (15+ years)
 
-- Software Engineer, Facebook, 2021-present
+- Software Engineer, Facebook, 2021-22
 - Software Engineer and Manager, Microsoft, 2006-21
 
 ## Research and Teaching Experience (10+ years)
 
-- Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs, 2021-present
-- Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-present
+- Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs, 2021-22
+- Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-22
 - Graduate Student Instructor, Physics Department, UC Berkeley, 2019
 - Research Assistant, Engineering Systems Division, MIT, 2014
 - Teaching Assistant, Physics and Engineering Departments, Grove City College, 2005-07
