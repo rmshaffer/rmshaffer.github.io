@@ -7,14 +7,15 @@ permalink: /about/
 
 ## Education
 
-- Ph.D., Physics (in progress), University of California, Berkeley
+- Ph.D., Physics, University of California, Berkeley
 - M.A., Physics, University of California, Berkeley
 - M.S., Engineering and Management, Massachusetts Institute of Technology
-- M.S., Computer Science (concentration in Computer Security), Boston University
-- B.S., Electrical Engineering (concentration in Computer Engineering), Grove City College
+- M.S., Computer Science, Boston University
+- B.S., Electrical Engineering, Grove City College
 
 ## Industry Experience (15+ years)
 
+- Applied Scientist, Amazon, 2022-
 - Software Engineer, Facebook, 2021-22
 - Software Engineer and Manager, Microsoft, 2006-21
 

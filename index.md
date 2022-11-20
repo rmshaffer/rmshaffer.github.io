@@ -7,11 +7,12 @@ list_title: Blog Posts
 ---
 <img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Photo of Ryan Shaffer" />
 
-I'm currently a Ph.D. candidate in the [Häffner ion trap group](https://ions.berkeley.edu)
-at UC Berkeley and the
-[NSF Challenge Institute for Quantum Computation (CIQC)](https://ciqc.berkeley.edu).
-My research interests include verification techniques for quantum computations and analog quantum simulations.
+I'm an applied scientist working on [Amazon Braket](https://aws.amazon.com/braket/),
+a fully managed quantum computing service available through Amazon Web Services (AWS)
+which provides access to a variety of quantum simulators and quantum computing hardware.
 
+My academic background includes degrees in physics, computer science, electrical engineering, and management.
+My industry career spans 15+ years at Microsoft, Facebook, and Amazon.
 For more about me, see the [About](./about.md) page.
 
 # Recent Papers
