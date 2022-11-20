@@ -22,7 +22,7 @@ url: "https://ryanshaffer.net" # the base hostname & protocol for your site, e.g
 twitter_username: ryanmshaffer
 github_username:  rmshaffer
 linkedin_username: rmshaffer
-facebook_username: ryanshaff
+#facebook_username: ryanshaff
 
 # Minima Settings
 minima:
