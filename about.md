@@ -13,13 +13,13 @@ permalink: /about/
 - M.S., Computer Science, Boston University
 - B.S., Electrical Engineering, Grove City College
 
-## Industry Experience (15+ years)
+## Industry Experience
 
 - Applied Scientist, Amazon, 2022-
 - Software Engineer, Facebook, 2021-22
 - Software Engineer and Manager, Microsoft, 2006-21
 
-## Research and Teaching Experience (10+ years)
+## Research and Teaching Experience
 
 - Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs, 2021-22
 - Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-22
