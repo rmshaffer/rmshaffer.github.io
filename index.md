@@ -30,3 +30,7 @@ Ryan Shaffer, Eli Megidish, Joseph Broz, Wei-Ting Chen, Hartmut Häffner
 npj Quantum Information 7, 46 (2021)
 
 See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAAAAJ) for a complete list.
+
+# Recent Talks
+
+{% include youtube.html id="hj6Cn1ZQWt0" %}
