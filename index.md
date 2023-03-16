@@ -17,13 +17,13 @@ For more about me, see the [About](./about.md) page.
 
 # Recent Papers
 
+[**Surrogate-based optimization for variational quantum algorithms**](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.107.032415)  
+Ryan Shaffer, Lucas Kocia, Mohan Sarovar  
+Phys. Rev. A 107, 032415 (2023)
+
 [**Efficient verification of continuously-parameterized quantum gates**](https://arxiv.org/abs/2205.13074)  
 Ryan Shaffer, Hang Ren, Emiliia Dyrenkova, Christopher G. Yale, Daniel S. Lobser, Ashlyn D. Burch, Matthew N. H. Chow, Melissa C. Revelle, Susan M. Clark, Hartmut Häffner  
 arXiv:2205.13074 (2022)
-
-[**Surrogate-based optimization for variational quantum algorithms**](https://arxiv.org/abs/2204.05451)  
-Ryan Shaffer, Lucas Kocia, Mohan Sarovar  
-arXiv:2204.05451 (2022)
 
 [**Practical verification protocols for analog quantum simulators**](https://doi.org/10.1038/s41534-021-00380-8)  
 Ryan Shaffer, Eli Megidish, Joseph Broz, Wei-Ting Chen, Hartmut Häffner  
