@@ -18,7 +18,7 @@ For more about me, see the [About](./about.md) page.
 # Recent Papers
 
 [**Surrogate-based optimization for variational quantum algorithms**](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.107.032415)
-([**PDF**](./papers/PhysRevA.107.032415.pdf)) 
+([**PDF**](./papers/PhysRevA.107.032415.pdf))  
 Ryan Shaffer, Lucas Kocia, Mohan Sarovar  
 Phys. Rev. A 107, 032415 (2023)
 
