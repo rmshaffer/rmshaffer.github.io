@@ -29,9 +29,6 @@ minima:
   # See http://shopify.github.io/liquid/filters/date/ for date format details.
   date_format: "%B %-d, %Y"
 
-# Google Analytics
-google_analytics: UA-110172517-1
-
 # Disqus Comments
 disqus:
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
