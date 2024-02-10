@@ -15,9 +15,9 @@ permalink: /about/
 
 ## Industry Experience
 
-- Applied Scientist, Amazon, 2022-
+- Applied Science Manager, Amazon, 2022-
 - Software Engineer, Facebook, 2021-22
-- Software Engineer and Manager, Microsoft, 2006-21
+- Software Engineer/Manager, Microsoft, 2006-21
 
 ## Research and Teaching Experience
 
