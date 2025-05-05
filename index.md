@@ -1,8 +1,6 @@
 ---
 layout: home
 list_title: Blog Posts
-title: Ryan Shaffer - Quantum Computing Scientist
-description: Explore Ryan Shaffer's cutting-edge research in quantum computing, including recent papers, talks, and professional achievements in the field of applied science.
 ---
 <img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Portrait of Ryan Shaffer, an applied scientist working on quantum computing" />
 

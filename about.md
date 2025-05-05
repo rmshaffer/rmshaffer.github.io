@@ -3,11 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Photo of Ryan Shaffer" />
 
-# About Ryan Shaffer
+# About
 
-I am a quantum computing scientist and software engineer with a strong academic foundation and over 15 years of industry experience at leading technology companies. My work spans quantum computing, software engineering, and applied science leadership.
+Ryan Shaffer is quantum computing scientist and software engineer with a strong academic foundation and over 15 years of industry experience at leading technology companies. His work spans quantum computing, software engineering, and applied science leadership.
 
 ## Industry Experience
 
