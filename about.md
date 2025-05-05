@@ -5,33 +5,44 @@ permalink: /about/
 ---
 <img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Photo of Ryan Shaffer" />
 
-## Education
+# About Ryan Shaffer
 
-- Ph.D., Physics, University of California, Berkeley
-- M.A., Physics, University of California, Berkeley
-- M.S., Engineering and Management, Massachusetts Institute of Technology
-- M.S., Computer Science, Boston University
-- B.S., Electrical Engineering, Grove City College
+I am a quantum computing scientist and software engineer with a strong academic foundation and over 15 years of industry experience at leading technology companies. My work spans quantum computing, software engineering, and applied science leadership.
 
 ## Industry Experience
 
-- Applied Science Manager, Amazon, 2022-
-- Software Engineer, Facebook, 2021-22
-- Software Engineer/Manager, Microsoft, 2006-21
+| **Role**                          | **Organization**       | **Years**       |
+|-----------------------------------|------------------------|-----------------|
+| Applied Science Manager           | Amazon                | 2022–Present   |
+| Software Engineer                 | Facebook              | 2021–2022      |
+| Software Engineer/Manager         | Microsoft             | 2006–2021      |
+
+## Education
+
+| **Degree**                        | **Field**                     | **Institution**                     |
+|-----------------------------------|-------------------------------|-------------------------------------|
+| Ph.D.                             | Physics<br/>*Ph.D. Thesis: [Efficient and trusted operation of quantum computers and quantum simulators](https://ions.berkeley.edu/publications/Shaffer_Thesis.pdf)*                       | University of California, Berkeley |
+| M.S.                              | Engineering and Management    | Massachusetts Institute of Technology |
+| M.S.                              | Computer Science<br/>*concentration in Computer Security*             | Boston University                  |
+| B.S.                              | Electrical Engineering<br/>*concentration in Computer Engineering*        | Grove City College                 |
 
 ## Research and Teaching Experience
 
-- Graduate Student Research Intern, [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs, 2021-22
-- Graduate Student Researcher, [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley, 2017-22
-- Graduate Student Instructor, Physics Department, UC Berkeley, 2019
-- Research Assistant, Engineering Systems Division, MIT, 2014
-- Teaching Assistant, Physics and Engineering Departments, Grove City College, 2005-07
+| **Role**                          | **Organization**                                      | **Years**       |
+|-----------------------------------|------------------------------------------------------|-----------------|
+| Graduate Student Research Intern  | [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs | 2021–2022      |
+| Graduate Student Researcher       | [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley | 2017–2022      |
+| Graduate Student Instructor       | Physics Department, UC Berkeley                     | 2019            |
+| Research Assistant                | Engineering Systems Division, MIT                   | 2014            |
+| Teaching Assistant                | Physics and Engineering Departments, Grove City College | 2005–2007      |
 
-## Academic Honors
+## Awards and Fellowships
 
-- [NSF Quantum Information Science & Engineering Network (QISE-NET) Fellow](https://qisenet.uchicago.edu/), 2021-22
-- [DoD National Defense Science & Engineering Graduate (NDSEG) Fellow](https://ndseg.org/), 2017-21
-- UC Berkeley Outstanding Graduate Student Instructor in Physics, 2019
-- MIT System Design and Management Fellow, 2012-15
-- Boston University Science and Engineering Day Applied Science Award, 2011
-- Grove City College Roger Clark Dawes Engineering Award, 2008
+| **Description**                                                                 | **Organization**                                      | **Years**       |
+|---------------------------------------------------------------------------|------------------------------------------------------|-----------------|
+| [Quantum Information Science & Engineering Network (QISE-NET) Fellow](https://qisenet.uchicago.edu/) | National Science Foundation                          | 2021–2022      |
+| [National Defense Science & Engineering Graduate (NDSEG) Fellow](https://ndseg.org/) | US Department of Defense                                | 2017–2021      |
+| Outstanding Graduate Student Instructor in Physics                       | UC Berkeley                                          | 2019            |
+| System Design and Management Fellow                                      | Massachusetts Institute of Technology               | 2012–2015      |
+| Science and Engineering Day Applied Science Award                        | Boston University                                    | 2011            |
+| Roger Clark Dawes Engineering Award                                      | Grove City College                                   | 2008            |
