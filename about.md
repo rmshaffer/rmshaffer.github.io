@@ -6,7 +6,7 @@ permalink: /about/
 
 # About
 
-Ryan Shaffer is quantum computing scientist and software engineer with a strong academic foundation and over 15 years of industry experience at leading technology companies. His work spans quantum computing, software engineering, and applied science leadership.
+Ryan Shaffer is a quantum computing scientist and software engineer with a strong academic foundation and over 15 years of industry experience at leading technology companies. His work spans quantum computing, software engineering, and applied science leadership.
 
 ## Industry Experience
 
