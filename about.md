@@ -4,24 +4,25 @@ title: About
 permalink: /about/
 ---
 
-# About
-
-Ryan Shaffer is a quantum computing scientist and software engineer with a strong academic foundation and over 15 years of industry experience at leading technology companies. His work spans quantum computing, software engineering, and applied science leadership.
+For full details, see my [LinkedIn](https://www.linkedin.com/in/rmshaffer).
 
 ## Industry Experience
 
-| **Role**                          | **Organization**       | **Years**       |
+| **Role**                          | **Company**       | **Years**       |
 |-----------------------------------|------------------------|-----------------|
-| Applied Science Manager           | Amazon                | 2022–Present   |
-| Software Engineer                 | Facebook              | 2021–2022      |
-| Software Engineer/Manager         | Microsoft             | 2006–2021      |
+| Applied Science Manager, Amazon Braket           | Amazon Web Services                | 2022–Present   |
+| Software Engineer, News Feed                 | Facebook              | 2021–2022      |
+| Software Engineer, Azure Quantum         | Microsoft             | 2020–2021      |
+| Software Engineering Manager, Office         | Microsoft             | 2014–2018      |
+| Software Engineer, SharePoint         | Microsoft             | 2008–2014      |
+| Software Engineering Intern, Office         | Microsoft             | 2006–2007      |
 
 ## Education
 
 | **Degree**                        | **Field**                     | **Institution**                     |
 |-----------------------------------|-------------------------------|-------------------------------------|
 | Ph.D.                             | Physics<br/>*Ph.D. Thesis: [Efficient and trusted operation of quantum computers and quantum simulators](https://ions.berkeley.edu/publications/Shaffer_Thesis.pdf)*                       | University of California, Berkeley |
-| M.S.                              | Engineering and Management    | Massachusetts Institute of Technology |
+| M.S.                              | Engineering and Management<br/>*M.S. Thesis: [Why software firms build hardware, and what Microsoft is doing about it](https://dspace.mit.edu/bitstream/handle/1721.1/100312/932078071-MIT.pdf)*    | Massachusetts Institute of Technology |
 | M.S.                              | Computer Science<br/>*concentration in Computer Security*             | Boston University                  |
 | B.S.                              | Electrical Engineering<br/>*concentration in Computer Engineering*        | Grove City College                 |
 
@@ -29,7 +30,7 @@ Ryan Shaffer is a quantum computing scientist and software engineer with a stron
 
 | **Role**                          | **Organization**                                      | **Years**       |
 |-----------------------------------|------------------------------------------------------|-----------------|
-| Graduate Student Research Intern  | [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs | 2021–2022      |
+| Graduate Student Researcher  | [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs | 2021–2022      |
 | Graduate Student Researcher       | [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley | 2017–2022      |
 | Graduate Student Instructor       | Physics Department, UC Berkeley                     | 2019            |
 | Research Assistant                | Engineering Systems Division, MIT                   | 2014            |
@@ -41,7 +42,7 @@ Ryan Shaffer is a quantum computing scientist and software engineer with a stron
 |---------------------------------------------------------------------------|------------------------------------------------------|-----------------|
 | [Quantum Information Science & Engineering Network (QISE-NET) Fellow](https://qisenet.uchicago.edu/) | National Science Foundation                          | 2021–2022      |
 | [National Defense Science & Engineering Graduate (NDSEG) Fellow](https://ndseg.org/) | US Department of Defense                                | 2017–2021      |
-| Outstanding Graduate Student Instructor in Physics                       | UC Berkeley                                          | 2019            |
+| [Outstanding Graduate Student Instructor in Physics](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2020/)                       | UC Berkeley                                          | 2019            |
 | System Design and Management Fellow                                      | Massachusetts Institute of Technology               | 2012–2015      |
 | Science and Engineering Day Applied Science Award                        | Boston University                                    | 2011            |
 | Roger Clark Dawes Engineering Award                                      | Grove City College                                   | 2008            |
