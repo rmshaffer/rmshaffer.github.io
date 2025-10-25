@@ -21,12 +21,12 @@ See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAA
 
 - [**Sample-efficient verification of continuously-parameterized quantum gates**](https://quantum-journal.org/papers/q-2023-05-04-997/)  
   ([**PDF**](https://quantum-journal.org/papers/q-2023-05-04-997/pdf/))  
-  *This paper introduces a novel method for efficiently verifying quantum gates on small quantum processors. By leveraging sample-efficient techniques, the approach minimizes the resources required for gate verification, making it particularly useful for near-term quantum devices.*
+  *This paper introduces a novel method for efficiently verifying quantum gates on small quantum processors. By leveraging sample-efficient techniques, the approach minimizes the resources required for gate verification, making it particularly useful for near-term quantum devices.*  
   **Authors**: Ryan Shaffer, Hang Ren, Emiliia Dyrenkova, Christopher G. Yale, Daniel S. Lobser, Ashlyn D. Burch, Matthew N. H. Chow, Melissa C. Revelle, Susan M. Clark, Hartmut Häffner  
   **Published in**: Quantum 7, 997 (2023)
 
 - [**Surrogate-based optimization for variational quantum algorithms**](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.107.032415)  
-  ([**PDF**](./papers/PhysRevA.107.032415.pdf))  
+  ([**PDF**](https://link.aps.org/accepted/10.1103/PhysRevA.107.032415))  
   *This work explores the use of surrogate models to optimize variational quantum algorithms (VQAs). By approximating the cost function landscape, surrogate models reduce the computational overhead of optimization, enabling faster convergence and improved performance in hybrid quantum-classical workflows.*  
   **Authors**: Ryan Shaffer, Lucas Kocia, Mohan Sarovar  
   **Published in**: Phys. Rev. A 107, 032415 (2023)
