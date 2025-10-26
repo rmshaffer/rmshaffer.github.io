@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ryan Shaffer | Software engineer and quantum computing scientist
+title: Ryan Shaffer
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
   Applied Science Manager, Amazon Braket
