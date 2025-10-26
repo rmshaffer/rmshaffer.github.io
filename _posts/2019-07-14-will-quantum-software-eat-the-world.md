@@ -1,10 +1,13 @@
 ---
-layout: post
 title: "Will Quantum Software Eat the World?"
-date: 2019-07-14 11:12:21 -0500
-categories: blog
-comments: true
+date: 2019-07-14T11:12:21-05:00
+categories:
+  - Blog
+tags:
+  - quantum computing
+  - software
 ---
+
 The emergence of quantum computing hardware in recent years has produced an explosion of quantum startup businesses hoping to cash in on the burgeoning industry. At present, there are [well over 100 private companies focused on quantum computing](https://quantumcomputingreport.com/players/privatestartup/), not counting the large public companies, government entities, and academic groups who are also pouring resources into the technology. While this avalanche of funding, combined with the lack of any practical applications at the moment, leads many to worry about a coming ["quantum winter"](https://www.ryanshaffer.net/blog/2019/07/07/why-quantum-winter-is-not-coming.html), I want to explore a different aspect here: what does the interplay between quantum hardware and quantum software look like, and how can we expect this to evolve over time? Or, to borrow a phrase from Marc Andreessen, will quantum software [eat the world](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)?
 
 <img src="/images/quantum-circuit.jpg" alt="Quantum circuit" width="490" /> 

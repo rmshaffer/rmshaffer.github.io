@@ -1,16 +1,7 @@
 ---
-layout: home
-list_title: Blog Posts
+permalink: /publications/
+title: "Publications"
 ---
-<img src="/images/portrait.jpg" style="float: right; padding: 0px 0px 20px 20px" width="125" alt="Photo of Ryan Shaffer" />
-
-Welcome! I'm Ryan Shaffer. I currently work on [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, IQM, QuEra, and Rigetti. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
-
-My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications. For more about my background, visit the [About](./about.md) page.
-
-Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaffer) or exploring my projects on [GitHub](https://github.com/rmshaffer).
-
-# Recent Papers
 
 See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAAAAJ) for a complete list of my publications and papers. A selected list is presented below.
 
@@ -36,7 +27,3 @@ See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAA
   *This paper proposes practical and scalable methods for verifying the accuracy of analog quantum simulators. The protocols are designed to be robust against noise and imperfections, making them suitable for real-world experimental setups.*  
   **Authors**: Ryan Shaffer, Eli Megidish, Joseph Broz, Wei-Ting Chen, Hartmut Häffner  
   **Published in**: npj Quantum Information 7, 46 (2021)
-
-# Recent Talks
-
- {% include youtube.html id="hj6Cn1ZQWt0" %}

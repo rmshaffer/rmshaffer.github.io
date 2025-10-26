@@ -13,35 +13,29 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ryan Shaffer
+title: Ryan Shaffer | Software engineer and quantum computing scientist
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Software engineer and quantum computing scientist
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ryanshaffer.net" # the base hostname & protocol for your site, e.g. http://example.com
+  Applied Science Manager, Amazon Braket
 twitter_username: ryanmshaffer
-github_username:  rmshaffer
-linkedin_username: rmshaffer
-#facebook_username: ryanshaff
-
-# Minima Settings
-minima:
-  # See http://shopify.github.io/liquid/filters/date/ for date format details.
-  date_format: "%B %-d, %Y"
+github_username: rmshaffer
+minimal_mistakes_skin: default
+search: true
 
 # Google Analytics
 google_analytics: UA-110172517-1
 
-# Disqus Comments
-disqus:
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: ryanshaffer
-
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -54,3 +48,69 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Ryan Shaffer"
+  avatar : "/images/portrait.jpg"
+  bio    : "Applied Science Manager, Amazon Braket"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ryanshaffer.net"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rmshaffer"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/rmshaffer"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?hl=en&user=SRrFQ-gAAAAJ"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rmshaffer"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/rmshaffer"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?hl=en&user=SRrFQ-gAAAAJ"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

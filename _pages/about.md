@@ -1,10 +1,13 @@
 ---
-layout: page
-title: About
 permalink: /about/
+title: "About"
 ---
 
-For full details, see my [LinkedIn](https://www.linkedin.com/in/rmshaffer).
+Welcome! I'm Ryan Shaffer. I currently work on [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, IQM, QuEra, and Rigetti. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
+
+My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications. For more about my background, visit the [About](./about.md) page.
+
+Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaffer) or exploring my projects on [GitHub](https://github.com/rmshaffer).
 
 ## Industry Experience
 

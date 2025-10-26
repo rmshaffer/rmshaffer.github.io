@@ -1,10 +1,12 @@
 ---
-layout: post
 title: "Why Quantum Winter Is Not Coming"
-date: 2019-07-07 18:38:30 -0500
-categories: blog
-comments: true
+date: 2019-07-07T18:38:30-05:00
+categories:
+  - Blog
+tags:
+  - quantum computing
 ---
+
 Amid the recent explosion of startups and venture capital investment into quantum computing, there has been [much](https://www.economist.com/business/2018/08/18/the-race-is-on-to-dominate-quantum-computing) [talk](https://www.businessinsider.com/vcs-are-investing-in-quantum-startups-but-expect-a-quantum-winter-2019-3) [of](https://quantumcomputingreport.com/our-take/is-a-quantum-winter-coming/) [an](https://news.ycombinator.com/item?id=17429382) [inevitable](https://www.hybridquantumlab.com/thinkquantum/2019/3/17/avoiding-the-quantum-winter) "quantum winter".
 
 <img src="/images/quantum-winter.jpg" alt="Map of Winter Storm Quantum" width="490" />

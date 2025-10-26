@@ -1,10 +1,12 @@
 ---
-layout: post
 title: "Quantum Computing Beyond the Lab"
-date: 2019-09-22 20:55:33 -0500
-categories: blog
-comments: true
+date: 2019-09-22T20:55:33-05:00
+categories:
+  - Blog
+tags:
+  - quantum computing
 ---
+
 For several decades, quantum computing was a purely academic pursuit. In the 1980s, a few forward-thinking theorists began to [describe the principles](https://people.eecs.berkeley.edu/~christos/classics/Feynman.pdf) underlying a new type of computer that used logic based on the laws of quantum physics, rather than the simple binary logic used by classical computers. In the 1990s, the field expanded rapidly as the first [quantum](https://en.wikipedia.org/wiki/Shor%27s_algorithm) [algorithms](https://en.wikipedia.org/wiki/Grover%27s_algorithm) emerged, proving that these quantum computers could actually provide a significant breakthrough in computational power for certain types of problems. But at that point, building an actual quantum computer was far beyond anyone's capability.
 
 ## Who's interested in quantum computing?
