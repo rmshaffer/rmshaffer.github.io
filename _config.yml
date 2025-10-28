@@ -17,10 +17,11 @@ title: Ryan Shaffer
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
   Applied Science Manager, Amazon Braket
+url: https://ryanshaffer.net
 twitter_username: ryanmshaffer
 github_username: rmshaffer
-minimal_mistakes_skin: default
-search: true
+minimal_mistakes_skin: air
+search: false
 
 # Google Analytics
 google_analytics: UA-110172517-1
@@ -96,7 +97,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true

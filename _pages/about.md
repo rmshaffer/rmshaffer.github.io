@@ -29,14 +29,21 @@ Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaff
 | M.S.                              | Computer Science<br/>*concentration in Computer Security*             | Boston University                  |
 | B.S.                              | Electrical Engineering<br/>*concentration in Computer Engineering*        | Grove City College                 |
 
-## Research and Teaching Experience
+## Research Experience
 
 | **Role**                          | **Organization**                                      | **Years**       |
 |-----------------------------------|------------------------------------------------------|-----------------|
 | Graduate Student Researcher  | [OVER-QC Group](https://overqc.sandia.gov/), Sandia National Labs | 2021–2022      |
 | Graduate Student Researcher       | [Häffner Ion Trap Group](https://ions.berkeley.edu/), UC Berkeley | 2017–2022      |
-| Graduate Student Instructor       | Physics Department, UC Berkeley                     | 2019            |
 | Research Assistant                | Engineering Systems Division, MIT                   | 2014            |
+
+## Teaching and Mentoring Experience
+
+| **Role**                          | **Organization**                                      | **Years**       |
+|-----------------------------------|------------------------------------------------------|-----------------|
+| Member of Advisory Board          | [Unitary Foundation](https://unitary.foundation/posts/2024_advisory_board_2025/)   | 2024-Present            |
+| Instructor and Mentor             | [Qubit by Qubit](https://www.qubitbyqubit.org/), The Coding School   | 2022-Present            |
+| Graduate Student Instructor       | Physics Department, UC Berkeley                     | 2019            |
 | Teaching Assistant                | Physics and Engineering Departments, Grove City College | 2005–2007      |
 
 ## Awards and Fellowships

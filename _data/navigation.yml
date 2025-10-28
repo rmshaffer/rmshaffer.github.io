@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /about/
+#  - title: "CV"
+#    url: /cv.pdf
   - title: "Publications"
     url: /publications/
 #  - title: "Teaching"
