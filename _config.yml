@@ -13,10 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ryan Shaffer
+title: Ryan Shaffer | Quantum computing scientist
+title_separator: "|"
+masthead_title: "Ryan Shaffer"
+subtitle: "Quantum computing scientist"
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Applied Science Manager, Amazon Braket
+  Personal website of Ryan Shaffer, Applied Science Manager at Amazon Braket.
 url: https://ryanshaffer.net
 twitter_username: ryanmshaffer
 github_username: rmshaffer
