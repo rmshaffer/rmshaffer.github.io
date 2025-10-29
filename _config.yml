@@ -26,13 +26,6 @@ github_username: rmshaffer
 minimal_mistakes_skin: air
 search: false
 
-# Google Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: G-GP9ZQ8V3G
-    anonymize_ip: false
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
