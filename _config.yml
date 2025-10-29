@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ryan Shaffer | Quantum computing scientist
-title_separator: "|"
+title_separator: "-"
 masthead_title: "Ryan Shaffer"
 subtitle: "Quantum computing scientist"
 email: ryan@ryanshaffer.net
@@ -28,9 +28,9 @@ search: false
 
 # Google Analytics
 analytics:
-  provider: "google-universal"
+  provider: "google-gtag"
   google:
-    tracking_id: UA-110172517-1
+    tracking_id: G-GP9ZQ8V3G
     anonymize_ip: false
 
 # Build settings
