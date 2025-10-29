@@ -5,7 +5,7 @@ title: "About"
 
 Welcome! I'm Ryan Shaffer. I currently work on [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, IQM, QuEra, and Rigetti. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
 
-My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications. For more about my background, visit the [About](./about.md) page.
+My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications.
 
 Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaffer) or exploring my projects on [GitHub](https://github.com/rmshaffer).
 
@@ -22,12 +22,12 @@ Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaff
 
 ## Education
 
-| **Degree**                        | **Field**                     | **Institution**                     |
-|-----------------------------------|-------------------------------|-------------------------------------|
-| Ph.D.                             | Physics<br/>*Ph.D. Thesis: [Efficient and trusted operation of quantum computers and quantum simulators](https://ions.berkeley.edu/publications/Shaffer_Thesis.pdf)*                       | University of California, Berkeley |
-| M.S.                              | Engineering and Management<br/>*M.S. Thesis: [Why software firms build hardware, and what Microsoft is doing about it](https://dspace.mit.edu/bitstream/handle/1721.1/100312/932078071-MIT.pdf)*    | Massachusetts Institute of Technology |
-| M.S.                              | Computer Science<br/>*concentration in Computer Security*             | Boston University                  |
-| B.S.                              | Electrical Engineering<br/>*concentration in Computer Engineering*        | Grove City College                 |
+| **Degree**                        | **Field**                     | **Institution**                     | **Year** |
+|-----------------------------------|-------------------------------|-------------------------------------|----------|
+| Ph.D.                             | Physics<br/>*Ph.D. Thesis: [Efficient and trusted operation of quantum computers and quantum simulators](https://ions.berkeley.edu/publications/Shaffer_Thesis.pdf)*                       | University of California, Berkeley | 2022 |
+| M.S.                              | Engineering and Management<br/>*M.S. Thesis: [Why software firms build hardware, and what Microsoft is doing about it](https://dspace.mit.edu/bitstream/handle/1721.1/100312/932078071-MIT.pdf)*    | Massachusetts Institute of Technology | 2015 |
+| M.S.                              | Computer Science<br/>*concentration in Computer Security*             | Boston University                  | 2011 |
+| B.S.                              | Electrical Engineering<br/>*concentration in Computer Engineering*        | Grove City College                 | 2008 |
 
 ## Research Experience
 
