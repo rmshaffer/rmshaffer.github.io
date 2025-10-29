@@ -64,9 +64,6 @@ author:
   avatar : "/images/portrait.jpg"
   bio    : "Applied Science Manager, Amazon Braket"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://ryanshaffer.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rmshaffer"
