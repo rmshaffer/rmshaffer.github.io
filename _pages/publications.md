@@ -5,10 +5,11 @@ title: "Publications"
 
 See my [Google Scholar page](https://scholar.google.com/citations?user=SRrFQ-gAAAAJ) for a complete list of my publications and papers. A selected list is presented below.
 
-- [**Quantum-Classical Auxiliary Field Quantum Monte Carlo with Matchgate Shadows on Trapped Ion Quantum Computers**](https://arxiv.org/abs/2506.22408) ([**PDF**](https://arxiv.org/pdf/2506.22408))  
+- [**Quantum-classical auxiliary field quantum Monte Carlo with matchgate shadows on trapped ion quantum computers**](https://journals.aps.org/prresearch/abstract/10.1103/n1tf-8kr7)  
+  ([**PDF**](https://journals.aps.org/prresearch/pdf/10.1103/n1tf-8kr7))  
   *This paper presents a hybrid quantum-classical algorithm that leverages matchgate shadows to efficiently simulate strongly correlated fermionic systems using auxiliary-field quantum Monte Carlo methods. The implementation utilizes the IonQ Forte trapped-ion quantum computer on Amazon Braket, along with AWS-hosted NVIDIA GPUs, to demonstrate a scalable and practical quantum simulation.*  
   **Authors**: Luning Zhao, Joshua J. Goings, Willie Aboumrad, Andrew Arrasmith, Lazaro Calderin, Spencer Churchill, Dor Gabay, Thea Harvey-Brown, Melanie Hiles, Magda Kaja, Matthew Keesan, Karolina Kulesz, Andrii Maksymov, Mei Maruo, Mauricio Muñoz, Bas Nijholt, Rebekah Schiller, Yvette de Sereville, Amy Smidutz, Felix Tripier, Grace Yao, Trishal Zaveri, Coleman Collins, Martin Roetteler, Evgeny Epifanovsky, Arseny Kovyrshin, Lars Tornberg, Anders Broo, Jeff R. Hammond, Zohim Chandani, Pradnya Khalate, Elica Kyoseva, Yi-Ting Chen, Eric M. Kessler, Cedric Yen-Yu Lin, Gandhi Ramu, Ryan Shaffer, Michael Brett, Benchen Huang, Maxime R. Hugues, Tyler Y. Takeshita  
-  **Preprint**: arXiv 2506.22408 (2025)
+  **Published in**: Phys. Rev. Research 8, 033061 (2026)
 
 - [**Sample-efficient verification of continuously-parameterized quantum gates**](https://quantum-journal.org/papers/q-2023-05-04-997/)  
   ([**PDF**](https://quantum-journal.org/papers/q-2023-05-04-997/pdf/))  
