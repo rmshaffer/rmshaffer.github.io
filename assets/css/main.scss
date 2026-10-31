@@ -180,6 +180,11 @@ body {
     box-shadow: var(--shadow-md);
     border-color: rgba(79, 70, 229, 0.2);
   }
+
+  /* Drop the base h2 top margin; the card padding already provides the spacing */
+  .archive__item-title {
+    margin-top: 0;
+  }
 }
 
 .archive__item-title {

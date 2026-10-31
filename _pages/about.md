@@ -3,9 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-Welcome! I'm Ryan Shaffer. I currently work on [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, IQM, QuEra, and Rigetti. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
+Welcome! I'm Ryan Shaffer. Most recently, I worked on [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, Rigetti, QuEra, IQM, and AQT. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
 
-My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications.
+My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications. I also teach and mentor whenever I have the opportunity to do so. I currently teach the undergraduate and graduate quantum programming courses in the Applied Physics department at NYU, and I serve as a mentor for Unitary Foundation microgrant recipients.
 
 Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaffer) or exploring my projects on [GitHub](https://github.com/rmshaffer).
 
@@ -13,7 +13,7 @@ Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaff
 
 | **Role**                          | **Company**       | **Years**       |
 |-----------------------------------|------------------------|-----------------|
-| Applied Science Manager, Amazon Braket           | Amazon Web Services                | 2022–Present   |
+| Applied Science Manager, Amazon Braket           | Amazon Web Services                | 2022–2026      |
 | Software Engineer, News Feed                 | Facebook              | 2021–2022      |
 | Software Engineer, Azure Quantum         | Microsoft             | 2020–2021      |
 | Software Engineering Manager, Office         | Microsoft             | 2014–2018      |
@@ -41,8 +41,9 @@ Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaff
 
 | **Role**                          | **Organization**                                      | **Years**       |
 |-----------------------------------|------------------------------------------------------|-----------------|
+| Adjunct Professor                 | Applied Physics Department, New York University      | 2026-Present            |
 | Member of Advisory Board          | [Unitary Foundation](https://unitary.foundation/posts/2024_advisory_board_2025/)   | 2024-Present            |
-| Instructor and Mentor             | [Qubit by Qubit](https://www.qubitbyqubit.org/), The Coding School   | 2022-Present            |
+| Instructor and Mentor             | [Qubit by Qubit](https://www.qubitbyqubit.org/)   | 2022-2025            |
 | Graduate Student Instructor       | Physics Department, UC Berkeley                     | 2019            |
 | Teaching Assistant                | Physics and Engineering Departments, Grove City College | 2005–2007      |
 

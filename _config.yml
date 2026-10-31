@@ -19,7 +19,7 @@ masthead_title: "Ryan Shaffer"
 subtitle: "Quantum computing scientist"
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Ryan Shaffer, Applied Science Manager at Amazon Braket.
+  Personal website of Ryan Shaffer, quantum computing scientist.
 url: https://ryanshaffer.net
 twitter_username: ryanmshaffer
 github_username: rmshaffer
@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Ryan Shaffer"
   avatar : "/images/portrait.jpg"
-  bio    : "Applied Science Manager, Amazon Braket"
+  bio    : "Building the quantum future"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
