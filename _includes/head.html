@@ -13,7 +13,13 @@
   gtag('config', 'G-GP9ZQ8V3GL');
 </script>
 
-{% include seo.html %}
+{%- comment -%}
+  The theme's seo.html emits its own <title>, which garbles titles containing
+  "|" (the home page came out as "X - X"). Keep the <title> above and drop
+  seo.html's; everything after its </title> (meta, Open Graph, JSON-LD) stays.
+{%- endcomment -%}
+{%- capture seo_tags -%}{% include seo.html %}{%- endcapture -%}
+{{ seo_tags | split: "</title>" | last }}
 
 {% unless site.atom_feed.hide %}
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">

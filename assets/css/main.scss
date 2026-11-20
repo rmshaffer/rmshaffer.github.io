@@ -6,364 +6,900 @@ search: false
 @charset "utf-8";
 
 /* ==========================================================================
-   Theme variable overrides — modern slate & indigo palette
+   Theme variable overrides — "Field Notes": warm paper, ink, rust.
+   Type: Newsreader (headings), IBM Plex Sans (body), IBM Plex Mono (labels).
+   Fonts are loaded in _includes/head/custom.html.
    ========================================================================== */
 
-$sans-serif: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$serif: "Newsreader", Georgia, "Times New Roman", serif;
+$sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$monospace: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
 $global-font-family: $sans-serif;
-$header-font-family: $sans-serif;
+$header-font-family: $serif;
 $sans-serif-narrow: $sans-serif;
+$caption-font-family: $sans-serif;
 
-$background-color: #f6f7fb;
-$text-color: #1e293b;
-$muted-text-color: #64748b;
-$primary-color: #4f46e5;
-$border-color: #e2e8f0;
-$link-color: #4338ca;
-$link-color-hover: #312e81;
-$footer-background-color: #0f172a;
-$masthead-link-color: #334155;
-$masthead-link-color-hover: #4f46e5;
+// The theme scales the root font size up to 22px on wide screens; keep body
+// copy at a comfortable reading size instead.
+$doc-font-size: 16px;
+$doc-font-size-medium: 17px;
+$doc-font-size-large: 17px;
+$doc-font-size-x-large: 18px;
 
-$border-radius: 10px;
-$box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05), 0 8px 24px rgba(15, 23, 42, 0.06);
-$code-background-color: #f1f5f9;
+$paper: #f7f4ee;
+$paper-2: #efe9de;
+$ink: #1c1b18;
+$ink-2: #3b382f;
+$rust: #b4441f;
+$rust-dark: #8e3216;
+
+$background-color: $paper;
+$text-color: $ink;
+$muted-text-color: #716a5c;
+$primary-color: $rust;
+$border-color: #dcd3c3;
+$link-color: #9e3a19;
+$link-color-hover: $rust-dark;
+$link-color-visited: #9e3a19;
+$masthead-link-color: $ink-2;
+$masthead-link-color-hover: $rust;
+$navicon-link-color-hover: $rust;
+$footer-background-color: $paper;
+$code-background-color: $paper-2;
+$form-background-color: $paper-2;
+$border-radius: 2px;
+$box-shadow: none;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
 /* ==========================================================================
-   Custom styles — professional, fresh, content untouched
+   Site-wide styles
    ========================================================================== */
 
-:root {
-  --accent: #4f46e5;
-  --accent-soft: #eef2ff;
-  --surface: #ffffff;
-  --surface-elevated: #ffffff;
-  --text-primary: #1e293b;
-  --text-muted: #64748b;
-  --border-subtle: #e2e8f0;
-  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
-  --shadow-md: 0 4px 20px rgba(15, 23, 42, 0.08);
-  --radius: 12px;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(79, 70, 229, 0.08), transparent),
-    linear-gradient(180deg, #f6f7fb 0%, #f1f3f9 100%);
-  background-attachment: fixed;
+  background: $paper;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Masthead — clean, elevated bar */
+::selection {
+  background: rgba($rust, 0.18);
+  color: $ink;
+}
+
+/* Masthead: paper bar, serif wordmark with a rust period */
 .masthead {
-  position: sticky;
-  top: 0;
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-sm);
+  background: $paper;
+  border-bottom: 1px solid $border-color;
 }
 
 .masthead__inner-wrap {
-  padding: 0.85em 1.25em;
+  padding-block: 1.05em 0.85em;
 }
 
-.site-title {
-  font-size: 1.05rem;
-  letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #1e293b 0%, #243044 94%, #3730a3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.greedy-nav .site-title {
+  // flex drops the whitespace before the hidden subtitle, so the period hugs the name
+  display: flex;
+  align-items: baseline;
+  font-family: $serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  color: $ink;
+
+  &::after {
+    content: ".";
+    color: $rust;
+  }
+}
+
+.site-subtitle {
+  display: none;
 }
 
 .greedy-nav {
   background: transparent;
 
   a {
-    font-weight: 500;
-    font-size: 0.9rem;
-    letter-spacing: 0.01em;
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: var(--accent);
-    }
+    font-size: 0.82rem;
+    color: $ink-2;
   }
 
   .visible-links a {
-    position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -4px;
-      width: 0;
-      height: 2px;
-      background: var(--accent);
-      border-radius: 1px;
-      transition: width 0.25s ease;
+    &::before {
+      height: 1px;
+      bottom: 2px;
+      background: $rust;
     }
 
-    &:hover::after {
-      width: 100%;
+    &:hover {
+      color: $rust;
+    }
+  }
+
+  .hidden-links {
+    background: $paper;
+    border-color: $border-color;
+    border-radius: $border-radius;
+
+    a:hover {
+      color: $rust;
+      background: $paper-2;
     }
   }
 }
 
-/* Hero header on home page */
-.page__hero {
-  border-radius: 0 0 var(--radius) var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow-md);
-}
-
-.page__hero--overlay {
-  &::before {
-    background: linear-gradient(
-      180deg,
-      rgba(15, 23, 42, 0.15) 0%,
-      rgba(15, 23, 42, 0.55) 100%
-    );
-  }
+/* Headings and page titles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .page__title {
-  font-weight: 700;
-  letter-spacing: -0.03em;
-}
-
-/* Main content area */
-#page-title {
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  color: $ink;
 }
 
 .page__content {
-  h2, h3, h4 {
-    letter-spacing: -0.02em;
-    color: var(--text-primary);
+  h2 {
+    font-size: 1.5rem;
+    border-bottom-color: $border-color;
+  }
+
+  h3 {
+    font-size: 1.25rem;
   }
 
   a {
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  }
 
-    &:hover {
-      text-decoration-color: var(--accent);
-    }
+  blockquote {
+    border-inline-start: 2px solid $rust;
+    padding-inline-start: 1.25em;
+    font-family: $serif;
+    font-style: italic;
+    font-size: 1.1em;
+    color: $ink-2;
   }
 }
 
-/* Post list cards on home/archive */
-.list__item .archive__item {
-  background: var(--surface);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius);
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1rem;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+/* Meta lines, archive labels and taxonomy in mono */
+.page__meta,
+.page__taxonomy,
+.page__date {
+  font-family: $monospace;
+  color: $muted-text-color;
+  letter-spacing: 0.02em;
+}
 
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-    border-color: rgba(79, 70, 229, 0.2);
-  }
+.page__taxonomy-item a,
+.page__taxonomy .page__taxonomy-item {
+  border-radius: $border-radius;
+}
 
-  /* Drop the base h2 top margin; the card padding already provides the spacing */
-  .archive__item-title {
-    margin-top: 0;
-  }
+.archive__subtitle,
+.page__related-title {
+  font-family: $monospace;
+  font-weight: 500;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $muted-text-color;
+  border-bottom-color: $border-color;
 }
 
 .archive__item-title {
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-family: $serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: -0.005em;
 
   a {
-    color: var(--text-primary);
+    color: $ink;
+    text-decoration: none;
 
     &:hover {
-      color: var(--accent);
+      color: $rust;
     }
+  }
+
+  .u-url .fa-link {
+    font-size: 0.7em;
+    color: $muted-text-color;
   }
 }
 
 .archive__item-excerpt {
-  color: var(--text-muted);
-  line-height: 1.6;
+  color: $muted-text-color;
 }
 
-.archive__subtitle {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.75rem;
-  color: var(--accent);
-  border-bottom-color: var(--border-subtle);
+// Rules only between items, never after the last one in a list; equal space
+// above and below each rule.
+.list__item .archive__item {
+  padding-block: 1.1em;
 }
 
-.page__meta {
-  color: var(--text-muted);
-  font-size: 0.8rem;
+.list__item .archive__item-excerpt {
+  margin-bottom: 0;
 }
 
-/* Author sidebar */
+.list__item + .list__item .archive__item {
+  border-top: 1px solid $border-color;
+}
+
+/* Year-grouped archives (Posts, categories, tags): one rule under each
+   year, whitespace between years, and an unruled "back to top" link. */
+.taxonomy__section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  &:not(:last-child) {
+    border-bottom: 0;
+  }
+
+  + .taxonomy__section {
+    margin-top: 2.75em;
+  }
+
+  .archive__subtitle {
+    margin-bottom: 0;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.back-to-top {
+  margin-top: 0.4em;
+  font-family: $monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  color: $muted-text-color;
+
+  &:hover {
+    color: $rust;
+  }
+}
+
+.taxonomy__index a {
+  border-radius: $border-radius;
+
+  &:hover {
+    background: $paper-2;
+  }
+}
+
+.taxonomy__count {
+  font-family: $monospace;
+}
+
+/* Author sidebar (pages and posts). The name is kept small, at the tagline's
+   size, so it doesn't read as a second copy of the masthead wordmark. */
 .sidebar {
-  .author__avatar {
-    overflow: visible;
-    padding: 6px 4px 4px 6px;
+  .author__avatar img {
+    border-radius: $border-radius;
+    border: 0;
+    padding: 0;
+  }
 
-    img {
+  .author__name {
+    font-family: $sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.3;
+    color: $ink;
+  }
+
+  .author__bio {
+    color: $muted-text-color;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .author__urls a {
+    color: $ink-2;
+
+    &:hover {
+      color: $rust;
+    }
+  }
+}
+
+@include breakpoint($large) {
+  // The theme dims the sidebar to 75% and brightens it on hover; keep it steady.
+  .sidebar {
+    opacity: 1;
+    transition: none;
+  }
+
+  .sidebar .author__content {
+    padding: 0;
+    margin-top: 0.75em;
+  }
+
+  .sidebar .author__name {
+    margin: 0 0 2px;
+  }
+
+  .sidebar .author__bio {
+    margin-top: 0;
+  }
+}
+
+/* Below desktop width the theme collapses the links behind a "Follow"
+   button; show them as a row of icons instead. */
+@media (max-width: #{$large - 1px}) {
+  .sidebar {
+    margin-top: 1em;
+
+    .h-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 1em;
+      border-bottom: 1px solid $border-color;
+    }
+
+    .author__avatar {
+      flex: 0 0 auto;
+      width: 44px;
+      height: 44px;
+
+      img {
+        display: block;
+        width: 44px;
+        height: 44px;
+        object-fit: cover;
+      }
+    }
+
+    .author__content {
+      flex: 1 1 auto;
+      min-width: 0;
       padding: 0;
-      border-radius: 50%;
-      border: 2px solid var(--accent-soft);
-      box-shadow: none;
-      transition: border-color 0.25s ease;
     }
 
-    &:hover img {
-      border-color: var(--accent);
-    }
-  }
-
-  .author__content {
+    // The single-row mobile profile already sits under the masthead name.
     .author__name {
-      font-weight: 700;
-      letter-spacing: -0.02em;
+      display: none;
     }
 
-    .author__bio {
-      color: var(--text-muted);
-      line-height: 1.5;
+    .author__bio,
+    .author__bio p {
+      font-size: 14px;
+      line-height: 1.35;
     }
-  }
 
-  .author__urls {
-    a {
-      border-radius: 6px;
-      transition: background 0.2s ease, color 0.2s ease;
+    .author__urls-wrapper {
+      flex: 0 0 auto;
 
-      &:hover {
-        background: var(--accent-soft);
-        color: var(--accent);
+      button {
+        display: none;
+      }
+    }
+
+    .author__urls {
+      display: flex;
+      position: static;
+      gap: 4px;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        margin: 0;
+        padding: 0;
+        font-size: 1.1rem;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+      // Icons only; keep the label for screen readers.
+      .label {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
       }
     }
   }
 }
 
-/* Tables (About page experience tables) */
+/* Tables (About page) — ruled, no boxes */
 .page__content table {
-  border-collapse: separate;
-  border-spacing: 0;
+  display: table;
   width: 100%;
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--border-subtle);
+  border-collapse: collapse;
+  font-size: 0.92em;
+
+  thead {
+    background: transparent;
+  }
 
   th {
-    background: var(--accent-soft);
-    color: var(--text-primary);
-    font-weight: 600;
-    font-size: 0.85rem;
+    font-family: $monospace;
+    font-weight: 500;
+    font-size: 0.72rem;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    padding: 0.75rem 1rem;
-    border-bottom: 1px solid var(--border-subtle);
+    letter-spacing: 0.08em;
+    color: $muted-text-color;
+    background: transparent;
+    border-bottom: 1px solid $ink;
+    padding: 0.6em 0.75em 0.6em 0;
   }
 
   td {
-    padding: 0.7rem 1rem;
-    border-bottom: 1px solid var(--border-subtle);
-    background: var(--surface);
+    padding: 0.7em 0.75em 0.7em 0;
+    border-bottom: 1px solid $border-color;
+    vertical-align: top;
   }
 
   tr:last-child td {
-    border-bottom: none;
-  }
-
-  tr:hover td {
-    background: #fafbff;
+    border-bottom: 0;
   }
 }
 
-/* Code blocks */
-.highlight,
-figure.highlight {
-  border-radius: var(--radius);
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-sm);
-}
-
+/* Code */
 code {
-  border-radius: 4px;
+  border-radius: $border-radius;
   font-size: 0.88em;
 }
 
-/* Blockquotes */
-.page__content blockquote {
-  border-inline-start: 4px solid var(--accent);
-  background: var(--accent-soft);
-  border-radius: 0 var(--radius) var(--radius) 0;
-  padding: 1rem 1.25rem;
-  font-style: normal;
-  color: var(--text-primary);
+.highlight,
+figure.highlight {
+  border-radius: $border-radius;
 }
 
-/* Footer */
+/* Footer: a quiet colophon on paper */
 .page__footer {
-  background: var(--footer-background-color, #67718b) !important;
-  border-top: none;
-  margin-top: 3rem;
+  color: $muted-text-color !important; // the air skin forces white
+  background: transparent;
+  border-top: 1px solid $border-color;
+  margin-top: 4em;
+
+  footer {
+    margin-top: 1.25em;
+    padding-bottom: 1.5em;
+  }
+
+  a:hover {
+    color: $rust;
+    text-decoration: none;
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: inherit;
+  }
+}
+
+.page__footer-follow li {
+  font-family: $monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+
+  strong {
+    font-weight: 500;
+  }
 
   a {
-    transition: opacity 0.2s ease;
+    font-weight: 500;
+  }
+}
+
+.page__footer-copyright {
+  font-family: $monospace;
+  font-size: 0.68rem;
+}
+
+/* ==========================================================================
+   Home page (index.html, _layouts/landing.html)
+   Sized in px so the layout doesn't shift with the theme's root font size.
+   ========================================================================== */
+
+.fn-home {
+  font-size: 17px;
+  line-height: 1.6;
+  color: $ink;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: $border-color;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
 
     &:hover {
-      opacity: 0.85;
+      color: $rust;
+      text-decoration-color: $rust;
     }
   }
 
-  .page__footer-copyright {
-    opacity: 0.75;
-    font-size: 0.85rem;
+  // :where() keeps this reset at single-class specificity, so the component
+  // rules below can set their own margins.
+  :where(h1, h2, h3, p, ol, dl, dd, figure) {
+    margin: 0;
+  }
+
+  /* Small mono section labels (also used as the h2 of each row) */
+  .fn-label {
+    font-family: $monospace;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $muted-text-color;
+    line-height: 1.4;
+  }
+
+  .fn-quiet,
+  .fn-arrow {
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 2px;
+
+    &::after {
+      content: " →";
+    }
+
+    &:hover {
+      border-color: $rust;
+    }
+  }
+
+  .fn-arrow {
+    color: $rust;
+    font-weight: 500;
+    border-color: rgba($rust, 0.35);
+  }
+
+  .fn-more {
+    margin-top: 28px;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
   }
 }
 
-/* Single post page */
-.page__taxonomy-item a,
-.taxonomy__section a {
-  border-radius: 999px;
-  transition: background 0.2s ease, color 0.2s ease;
-}
+/* Hero */
+.fn-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 248px;
+  gap: 72px;
+  align-items: end;
+  padding-block: 80px 64px;
+  border-bottom: 1px solid $border-color;
 
-/* Pagination */
-.pagination {
-  a {
-    border-radius: 8px;
-    transition: background 0.2s ease, color 0.2s ease;
+  h1 {
+    font-family: $serif;
+    font-weight: 380;
+    font-size: clamp(38px, 5.2vw, 64px);
+    line-height: 1.06;
+    letter-spacing: -0.022em;
+    margin: 0 0 32px;
+    text-wrap: balance;
+    color: $ink;
+  }
 
-    &:hover {
-      background: var(--accent-soft);
-      color: var(--accent);
+  .fn-lede {
+    font-family: $serif;
+    font-size: 21px;
+    line-height: 1.55;
+    color: $ink-2;
+    max-width: 36em;
+
+    a {
+      text-decoration-color: $rust;
     }
   }
 }
 
-/* Selection highlight */
-::selection {
-  background: rgba(79, 70, 229, 0.2);
-  color: var(--text-primary);
+.fn-portrait {
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border-radius: 2px;
+    filter: saturate(0.85) contrast(1.03);
+  }
+
+  figcaption {
+    font-family: $monospace;
+    font-size: 11px;
+    color: $muted-text-color;
+    margin-top: 10px;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* Rows: label column + content */
+.fn-row {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 48px;
+  padding-block: 56px;
+  border-bottom: 1px solid $border-color;
+
+  > .fn-label {
+    padding-top: 6px;
+  }
+}
+
+/* Now */
+.fn-now {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+
+  .fn-where {
+    display: block;
+    font-family: $monospace;
+    font-size: 12px;
+    color: $rust;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+
+    a {
+      text-decoration-color: rgba($rust, 0.35);
+    }
+  }
+
+  h3 {
+    font-family: $serif;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.22;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 15.5px;
+    color: $ink-2;
+  }
+}
+
+/* Latest post (featured on the home page) */
+.fn-feature {
+  background: $paper-2;
+  border-top: 2px solid $rust;
+  padding: 36px 40px 34px;
+
+  &__date {
+    display: block;
+    font-family: $monospace;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $rust;
+  }
+
+  &__title {
+    font-family: $serif;
+    font-weight: 400;
+    font-size: clamp(28px, 3.4vw, 40px);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    margin: 12px 0 16px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__excerpt {
+    font-family: $serif;
+    font-size: 19px;
+    line-height: 1.55;
+    color: $ink-2;
+    max-width: 40em;
+  }
+
+  &__links {
+    margin-top: 24px;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+}
+
+/* Selected work */
+.fn-work {
+  list-style: none;
+  padding: 0;
+  counter-reset: fn-work;
+
+  li {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr) auto;
+    gap: 16px 32px;
+    padding-block: 20px;
+    margin: 0;
+    border-top: 1px solid $border-color;
+
+    &:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    &::before {
+      counter-increment: fn-work;
+      content: counter(fn-work, decimal-leading-zero);
+      font-family: $monospace;
+      font-size: 12px;
+      color: $muted-text-color;
+      padding-top: 7px;
+    }
+  }
+
+  &__title {
+    font-family: $serif;
+    font-size: 21px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    color: $muted-text-color;
+    margin-top: 4px;
+  }
+
+  &__venue {
+    font-family: $monospace;
+    font-size: 12px;
+    color: $muted-text-color;
+    text-align: right;
+    padding-top: 7px;
+    white-space: nowrap;
+  }
+}
+
+/* Path */
+.fn-path {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 10px 24px;
+
+  dt {
+    margin: 0;
+    font-family: $monospace;
+    font-size: 13px;
+    color: $muted-text-color;
+    padding-top: 2px;
+    font-weight: 400;
+  }
+
+  dd {
+    font-size: 16px;
+  }
+
+  b {
+    font-weight: 600;
+  }
+
+  span {
+    color: $muted-text-color;
+  }
+
+  &--edu {
+    margin-top: 24px;
+  }
+}
+
+/* Contact */
+.fn-contact {
+  padding-block: 72px 16px;
+
+  &__big {
+    font-family: $serif;
+    font-size: clamp(26px, 3.2vw, 36px);
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    max-width: 24em;
+    margin: 14px 0 28px;
+  }
+}
+
+.fn-links {
+  display: flex;
+  gap: 12px 28px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+
+  li {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none !important;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 2px;
+
+    &:hover {
+      border-color: $rust;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .fn-hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-block: 40px 40px;
+  }
+
+  .fn-portrait {
+    max-width: 200px;
+    order: -1;
+  }
+
+  .fn-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-block: 40px;
+  }
+
+  .fn-now {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .fn-feature {
+    padding: 28px 22px 26px;
+  }
+
+  .fn-work li {
+    grid-template-columns: 32px minmax(0, 1fr);
+  }
+
+  .fn-work__venue {
+    grid-column: 2;
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .fn-path {
+    grid-template-columns: 96px minmax(0, 1fr);
+  }
 }

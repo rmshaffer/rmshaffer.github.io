@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ryan Shaffer | Quantum computing scientist
+title: Ryan Shaffer | Building the future of quantum
 title_separator: "-"
 masthead_title: "Ryan Shaffer"
-subtitle: "Quantum computing scientist"
+subtitle: "Building the future of quantum"
 email: ryan@ryanshaffer.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website of Ryan Shaffer, quantum computing scientist.
+  Personal website of Ryan Shaffer, building the future of quantum.
 url: https://ryanshaffer.net
 twitter_username: ryanmshaffer
 github_username: rmshaffer
@@ -39,16 +39,18 @@ include:
   - _pages
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# A custom list replaces the defaults from Jekyll and the github-pages gem
+# (which adds CNAME), so they are repeated here.
+exclude:
+  - AGENTS.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -62,7 +64,7 @@ plugins:
 author:
   name   : "Ryan Shaffer"
   avatar : "/images/portrait.jpg"
-  bio    : "Building the quantum future"
+  bio    : "Building the future of quantum"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"

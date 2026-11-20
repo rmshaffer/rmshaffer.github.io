@@ -1,9 +1,181 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+# Home page. Layout: _layouts/landing.html; styles: assets/css/main.scss ("Home page").
+# Edit the lists below to update the page. "Latest post" is automatic: it
+# shows the newest original post (one without a `link:`) from the last two
+# years, and is hidden if there isn't one.
+layout: landing
+author_profile: false
 header:
-  image: "/images/talk-header.jpg" 
+  og_image: /images/portrait.jpg
+
+now:
+  - org: South Park Commons
+    url: https://www.southparkcommons.com/
+    since: 2026
+    role: Resident Member
+    text: Exploring what it takes to bring quantum computing to everyone who can use it, in a post-NISQ, AI-native world.
+  - org: New York University
+    url: https://engineering.nyu.edu/academics/departments/applied-physics
+    since: 2026
+    role: Adjunct Professor, Applied Physics
+    text: Teaching the undergraduate and graduate courses in quantum programming.
+  - org: Unitary Foundation
+    url: https://unitary.foundation/
+    since: 2024
+    role: Advisory Board
+    text: Industry advisor and mentor for open-source quantum microgrant projects.
+
+selected_work:
+  - title: Quantum-classical AFQMC with matchgate shadows on trapped-ion quantum computers
+    url: https://journals.aps.org/prresearch/abstract/10.1103/n1tf-8kr7
+    venue: Phys. Rev. Research · 2026
+    text: End-to-end chemistry workflow on IonQ Forte and NVIDIA GPUs on AWS, with a 656× time-to-solution improvement.
+  - title: "AutoQASM: imperative quantum programming in Python"
+    url: https://popl25.sigplan.org/details/planqc-2025-papers/18/AutoQASM-Imperative-quantum-programming-in-Python
+    venue: PLanQC @ POPL · 2025
+    text: Loops, subroutines and mid-circuit control flow, written as plain Python.
+  - title: Amazon Braket program sets
+    url: https://aws.amazon.com/blogs/quantum-computing/amazon-braket-introduces-program-sets-enabling-customers-to-run-quantum-programs-up-to-24x-faster/
+    venue: AWS Quantum Blog · 2025
+    text: Batching up to 100 programs per task so workloads run up to 24× faster.
+  - title: Sample-efficient verification of continuously-parameterized quantum gates
+    url: https://quantum-journal.org/papers/q-2023-05-04-997/
+    venue: Quantum · 2023
+    text: Verifying gates on small quantum processors with minimal measurement overhead.
+  - title: Practical verification protocols for analog quantum simulators
+    url: https://www.nature.com/articles/s41534-021-00380-8
+    venue: npj Quantum Inf. · 2021
+    text: Scalable, noise-robust checks that an analog simulator is doing what we think.
+
+# (not "path": that name is reserved by Jekyll)
+timeline:
+  experience:
+    - years: 2026–
+      org: South Park Commons
+      role: Resident Member
+    - years: 2026–
+      org: NYU
+      role: Adjunct Professor, Applied Physics
+    - years: 2022–2026
+      org: Amazon Web Services
+      role: Applied Science Manager, Amazon Braket
+    - years: 2021–2022
+      org: Facebook
+      role: Software Engineer, News Feed
+    - years: 2020–2021
+      org: Microsoft
+      role: Software Engineer, Azure Quantum
+    - years: 2008–2018
+      org: Microsoft
+      role: Software Engineer and Engineering Manager, Office &amp; SharePoint
+  education:
+    - years: 2022
+      org: Ph.D., Physics
+      role: UC Berkeley (advisor Hartmut Häffner)
+    - years: 2015
+      org: S.M., Engineering &amp; Management
+      role: MIT (advisor Michael Cusumano)
+    - years: 2011
+      org: M.S., Computer Science
+      role: Boston University
+    - years: 2008
+      org: B.S., Electrical Engineering
+      role: Grove City College
 ---
+{%- comment -%} Latest original post (no `link:`) from the last two years. {%- endcomment -%}
+{%- assign post_cutoff = site.time | date: "%s" | minus: 63115200 -%}
+{%- assign latest_post = nil -%}
+{%- for post in site.posts -%}
+  {%- unless post.link or post.hidden -%}
+    {%- assign post_time = post.date | date: "%s" | plus: 0 -%}
+    {%- if post_time >= post_cutoff -%}{%- assign latest_post = post -%}{%- endif -%}
+    {%- break -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+<section class="fn-hero">
+  <div>
+    <h1>How can we make quantum computing accessible to everyone who can benefit from it?</h1>
+    <p class="fn-lede">I'm Ryan Shaffer. I'm a resident member at <a href="https://www.southparkcommons.com/">South Park Commons</a> in New York City, working on that question. Before this, I led the quantum software team behind <a href="https://aws.amazon.com/braket/">Amazon Braket</a> at AWS. I also <a href="{{ '/teaching/' | relative_url }}">teach quantum programming</a> at NYU.</p>
+  </div>
+  <figure class="fn-portrait">
+    <img src="{{ '/images/portrait.jpg' | relative_url }}" alt="Portrait of Ryan Shaffer" width="512" height="512">
+    <figcaption>Physicist · Software engineer · Teacher</figcaption>
+  </figure>
+</section>
+
+<section class="fn-row" aria-labelledby="fn-now">
+  <h2 class="fn-label" id="fn-now">Now</h2>
+  <div class="fn-now">
+    {%- for item in page.now %}
+    <div>
+      <span class="fn-where">{% if item.url %}<a href="{{ item.url }}">{{ item.org }}</a>{% else %}{{ item.org }}{% endif %} · {{ item.since }}–</span>
+      <h3>{{ item.role }}</h3>
+      <p>{{ item.text }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+{%- if latest_post %}
+<section class="fn-row" aria-labelledby="fn-latest">
+  <h2 class="fn-label" id="fn-latest">Latest post</h2>
+  <article class="fn-feature">
+    <time class="fn-feature__date" datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %Y" }}</time>
+    <h3 class="fn-feature__title"><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
+    <p class="fn-feature__excerpt">{{ latest_post.excerpt | strip_html | strip | truncatewords: 70 }}</p>
+    <div class="fn-feature__links">
+      <a class="fn-arrow" href="{{ latest_post.url | relative_url }}">Read the post</a>
+      <a class="fn-quiet" href="{{ '/posts/' | relative_url }}">All posts</a>
+    </div>
+  </article>
+</section>
+{%- endif %}
+
+<section class="fn-row" aria-labelledby="fn-work">
+  <h2 class="fn-label" id="fn-work">Selected work</h2>
+  <div>
+    <ol class="fn-work">
+      {%- for item in page.selected_work %}
+      <li>
+        <div>
+          <div class="fn-work__title"><a href="{{ item.url }}">{{ item.title }}</a></div>
+          <div class="fn-work__text">{{ item.text }}</div>
+        </div>
+        <div class="fn-work__venue">{{ item.venue }}</div>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="fn-more"><a class="fn-quiet" href="{{ '/publications/' | relative_url }}">All publications</a>{% unless latest_post %}<a class="fn-quiet" href="{{ '/posts/' | relative_url }}">All posts</a>{% endunless %}</p>
+  </div>
+</section>
+
+<section class="fn-row" aria-labelledby="fn-path">
+  <h2 class="fn-label" id="fn-path">Path</h2>
+  <div>
+    <dl class="fn-path">
+      {%- for item in page.timeline.experience %}
+      <dt>{{ item.years }}</dt><dd><b>{{ item.org }}</b> <span>· {{ item.role }}</span></dd>
+      {%- endfor %}
+    </dl>
+    <dl class="fn-path fn-path--edu">
+      {%- for item in page.timeline.education %}
+      <dt>{{ item.years }}</dt><dd><b>{{ item.org }}</b> <span>· {{ item.role }}</span></dd>
+      {%- endfor %}
+    </dl>
+    <p class="fn-more"><a class="fn-quiet" href="{{ '/about/' | relative_url }}">More about me</a></p>
+  </div>
+</section>
+
+<section class="fn-contact" aria-labelledby="fn-contact">
+  <h2 class="fn-label" id="fn-contact">Get in touch</h2>
+  <p class="fn-contact__big">Working on quantum, AI, or what comes after NISQ? I'd love to hear what you're building.</p>
+  <ul class="fn-links">
+    {%- if site.email %}
+    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    {%- endif %}
+    {%- for link in site.author.links %}
+    <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+    {%- endfor %}
+  </ul>
+</section>

@@ -19,7 +19,8 @@ Primary content types:
 |-----------|---------|
 | Generator | Jekyll via `github-pages` gem |
 | Theme | `mmistakes/minimal-mistakes` (remote theme) |
-| Skin | `air` |
+| Skin | `air`, heavily restyled in `assets/css/main.scss` ("Field Notes": paper, ink, rust) |
+| Fonts | Newsreader, IBM Plex Sans, IBM Plex Mono (Google Fonts, loaded in `_includes/head/custom.html`) |
 | Markdown | Kramdown |
 | Custom domain | `www.ryanshaffer.net` (`CNAME`) |
 
@@ -45,10 +46,12 @@ _config.yml              # Site settings, author, post defaults
 _data/navigation.yml     # Top navigation links
 _pages/                  # Static pages (included via _config.yml)
 _posts/                  # Blog posts (YYYY-MM-DD-slug.md)
-_includes/               # Theme overrides (head, favicons)
+_drafts/                 # Unpublished posts (render only with --drafts)
+_includes/               # Theme overrides (head, favicons, fonts)
+_layouts/landing.html    # Full-width layout used by the home page
 images/                  # Site images (portrait, headers, post figures)
 papers/                  # PDF copies of select publications
-index.html               # Home page front matter
+index.html               # Home page: content in front matter, markup below it
 CNAME                    # Custom domain for GitHub Pages
 ```
 
@@ -84,7 +87,7 @@ link: https://example.com/external-article   # optional; for link/summary posts
 ### Navigation (`_data/navigation.yml`)
 
 - Only add nav items that have corresponding pages.
-- Teaching, Categories, Tags, and CV links are intentionally commented out; uncomment only when those pages are ready.
+- Categories, Tags, and CV links are intentionally commented out; uncomment only when those pages are ready.
 
 ### Publications (`_pages/publications.md`)
 
@@ -104,8 +107,12 @@ link: https://example.com/external-article   # optional; for link/summary posts
 Existing overrides:
 
 - `_includes/head.html` — page title format, Google Analytics, main CSS
-- `_includes/head/custom.html` — favicon and web manifest links
-- `index.html` — home layout with header image (`/images/talk-header.jpg`)
+- `_includes/head/custom.html` — favicon, web manifest and Google Fonts links
+- `_layouts/landing.html` — full-width layout for the home page (no theme article wrapper)
+- `index.html` — custom home page. The "Now", "Selected work" and "Path" sections are
+  lists in its front matter (`now`, `selected_work`, `timeline`); edit those rather than the
+  markup. "Latest post" is automatic: the newest post without a `link:` from the last
+  two years (hidden if none). Home styles are the "Home page" section of `assets/css/main.scss`.
 
 When customizing:
 
@@ -144,7 +151,7 @@ When customizing:
 | Add publication | `_pages/publications.md`, optionally `papers/` |
 | Change nav | `_data/navigation.yml` |
 | Site title/description | `_config.yml` |
-| Home page header | `index.html` front matter |
+| Home page (Now, Selected work, Path) | `index.html` front matter |
 | Favicon/meta | `_includes/head/custom.html`, root favicon files |
 
 ## Avoid

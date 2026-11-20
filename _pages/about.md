@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Welcome! I'm Ryan Shaffer. Most recently, I worked on [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, Rigetti, QuEra, IQM, and AQT. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
+Welcome! I'm Ryan Shaffer. I'm currently a resident member at [South Park Commons](https://www.southparkcommons.com/) in New York City, exploring how we can make the power of quantum computing accessible to everyone who can benefit from it. Before that, I led the quantum software team for [Amazon Braket](https://aws.amazon.com/braket/), a fully managed quantum computing service on AWS that provides access to state-of-the-art quantum simulators and quantum computing hardware from leading companies such as IonQ, Rigetti, QuEra, IQM, and AQT. My career spans over 15 years at leading tech companies like Microsoft, Facebook, and Amazon, where I've been fortunate to be a part of world-class teams in software engineering and applied science.
 
 My academic foundation is in physics, computer science, electrical engineering, and management, and with this cross-disciplinary background I strive to bridge the gap between theoretical research and practical applications. I also teach and mentor whenever I have the opportunity to do so. I currently teach the undergraduate and graduate quantum programming courses in the Applied Physics department at NYU, and I serve as a mentor for Unitary Foundation microgrant recipients.
 
@@ -13,6 +13,7 @@ Stay connected by following me on [LinkedIn](https://www.linkedin.com/in/rmshaff
 
 | **Role**                          | **Company**       | **Years**       |
 |-----------------------------------|------------------------|-----------------|
+| Resident Member                   | [South Park Commons](https://www.southparkcommons.com/) | 2026–Present   |
 | Applied Science Manager, Amazon Braket           | Amazon Web Services                | 2022–2026      |
 | Software Engineer, News Feed                 | Facebook              | 2021–2022      |
 | Software Engineer, Azure Quantum         | Microsoft             | 2020–2021      |
